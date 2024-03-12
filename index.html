@@ -1,0 +1,50 @@
+<!--ORIGINAL TASK PUPILS STARTED WITH -->
+<!--Full credit to Raspberry Pi Foundation for task -->
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="prefixfree.js"></script>
+    <title>Holiday card</title>
+  </head>
+
+  <body>
+  
+    <div id="outside">
+    
+      <p id="outside-title" style="font-size: 50px; background-color: white; border-style: dashed; border-color: #77C6E1";>
+        Happy Holidays!
+      </p>
+
+      <img id="outside-pic" src="reindeer.png" width="150" height="150">
+      <p>Image credits to sweet peas village</p>
+
+      <p>
+        <button onclick="open_card()">Click to open</button>
+      </p>
+     
+    </div>
+  
+    <div id="inside">
+    
+      <p id="inside-title" style="font-size: 50px; background-color: white; border-style: dashed; border-color:#77C6E1;font-family:Lucida Handwriting">
+        Happy Holiday
+      </p>
+      <center>
+      <img id="inside-pic" src="presents.png" height="250" width="750">
+        <p style="font-size: 20px">Hope you have an amazing holiday season! Enjoy!
+      </p>
+      </center>
+
+      <p>
+        <button onclick="close_card()">Click to close</button>
+      </p>
+
+   
+    </div>
+
+  
+  </body>
+  
+</html>
